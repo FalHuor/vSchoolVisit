@@ -8,6 +8,7 @@ public class LightsBehaviour : MonoBehaviour {
 	private List<GameObject> lights = new List<GameObject>();
 	private Transform transform;
 	public bool LightsUp = false;
+	public string text;
 
 	// Use this for initialization
 	void Start () {
@@ -30,10 +31,12 @@ public class LightsBehaviour : MonoBehaviour {
         {
 			if (LightsUp)
             {
+				text = "Press 'Left click' for put the lights Off";
 				light.GetComponent<Light>().intensity = 1;
             } 
 			else
             {
+				text = "Press 'Left click' for put the lights On";
 				light.GetComponent<Light>().intensity = 0;
 			}
         }
@@ -51,10 +54,12 @@ public class LightsBehaviour : MonoBehaviour {
 		{
 			if (LightsUp)
 			{
+				text = "Press 'Left click' for put the lights Off";
 				light.GetComponent<Light>().intensity = 1;
 			}
 			else
 			{
+				text = "Press 'Left click' for put the lights On";
 				light.GetComponent<Light>().intensity = 0;
 			}
 		}
