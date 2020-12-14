@@ -5,7 +5,11 @@ TagManager:
   serializedVersion: 2
   tags:
   - Grabbable
+<<<<<<< HEAD
   - VideoScreen
+=======
+  - Switch
+>>>>>>> master
   layers:
   - Default
   - TransparentFX
