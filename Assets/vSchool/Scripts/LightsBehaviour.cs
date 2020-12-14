@@ -5,9 +5,9 @@ using UnityEngine;
 public class LightsBehaviour : MonoBehaviour {
 
 	private List<GameObject> switchs = new List<GameObject>();
+	private List<GameObject> lights = new List<GameObject>();
 	private Transform transform;
 	public bool LightsUp = false;
-	private bool isActive = false;
 
 	// Use this for initialization
 	void Start () {
@@ -17,45 +17,47 @@ public class LightsBehaviour : MonoBehaviour {
 			if (child.gameObject.tag == "Switch")
 			{
 				switchs.Add(child.gameObject);
-				Debug.Log(child.gameObject.name);
 			}
 		}
-		Debug.Log(switchs.Count);
+		foreach (Transform child in transform.Find("Lights"))
+		{
+			if (child.gameObject.tag == "Lights")
+			{
+				lights.Add(child.gameObject);
+			}
+		}
+		foreach (GameObject light in lights)
+        {
+			if (LightsUp)
+            {
+				light.GetComponent<Light>().intensity = 1;
+            } 
+			else
+            {
+				light.GetComponent<Light>().intensity = 0;
+			}
+        }
 	}
 	
 	// Update is called once per frame
 	void Update () {
-		if (isActive)
-        {
-			if (Input.GetButton("Fire1"))
-			{
-				if (LightsUp == false)
-				{
-					LightsUp = true;
+		
+	}
 
-				}
-				else if (LightsUp == true)
-				{
-					LightsUp = false;
-				}
+	public void ToggleLight()
+    {
+		LightsUp = !LightsUp;
+		foreach (GameObject light in lights)
+		{
+			if (LightsUp)
+			{
+				light.GetComponent<Light>().intensity = 1;
+			}
+			else
+			{
+				light.GetComponent<Light>().intensity = 0;
 			}
 		}
-	}
-
-	void OnCollisionEnter(Collision collision)
-	{
-        if (collision.collider.CompareTag("Player"))
-        {
-			isActive = true;
-
-		}
-	}
-
-	void OnCollisionExit(Collision collision)
-	{
-		if (collision.collider.CompareTag("Player"))
-		{
-			isActive = false;
-		}
+		Debug.Log("State of lights : " + LightsUp);
 	}
 }
