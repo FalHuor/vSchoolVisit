@@ -188,7 +188,7 @@ Transform:
   - {fileID: 367096530}
   - {fileID: 1988526521}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &266840658 stripped
 Transform:
@@ -276,7 +276,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (4)
+      value: Simple Door 1
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -318,6 +318,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
   m_IsPrefabAsset: 0
@@ -349,6 +353,73 @@ Transform:
   m_Father: {fileID: 5249294}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &374569758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343,
+    type: 2}
+  m_PrefabInternal: {fileID: 1133449976}
+--- !u!1001 &591093572
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1988526521}
+    m_Modifications:
+    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.121
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2.052
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Simple Door 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_LocalScale.z
+      value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &643846845
 GameObject:
   m_ObjectHideFlags: 0
@@ -482,69 +553,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 643846845}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &374569758 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343,
-    type: 2}
-  m_PrefabInternal: {fileID: 1133449976}
---- !u!1001 &591093572
-Prefab:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1988526521}
-    m_Modifications:
-    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 1.66
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_LocalPosition.y
-      value: 1.121
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_LocalPosition.z
-      value: 2.052
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_LocalRotation.y
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_Name
-      value: SimpleDoor (4)
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 90
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_LocalScale.x
-      value: 1.0000005
-      objectReference: {fileID: 0}
-    - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-      propertyPath: m_LocalScale.z
-      value: 1.0000005
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
-  m_IsPrefabAsset: 0
 --- !u!1001 &658172332
 Prefab:
   m_ObjectHideFlags: 0
@@ -583,6 +591,14 @@ Prefab:
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_RootOrder
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Simple Door 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -861,7 +877,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -2.072
+      value: -2.088
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalPosition.y
@@ -893,7 +909,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (3)
+      value: Simple Door 4
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -906,6 +922,10 @@ Prefab:
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -1027,7 +1047,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -20, y: 0, z: 7}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: [{fileID: 280904443}]
+  m_Children:
+  - {fileID: 280904443}
   m_Father: {fileID: 5249294}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1055,8 +1076,12 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -11, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: [{fileID: 266840658}, {fileID: 728529566}, {fileID: 374569758}, {fileID: 979568984},
-    {fileID: 1879520971}]
+  m_Children:
+  - {fileID: 266840658}
+  - {fileID: 728529566}
+  - {fileID: 374569758}
+  - {fileID: 979568984}
+  - {fileID: 1879520971}
   m_Father: {fileID: 5249294}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1229,7 +1254,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (7)
+      value: Simple Door 1
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1242,6 +1267,10 @@ Prefab:
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -1261,7 +1290,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!108 &1115641171
 Light:
   m_ObjectHideFlags: 0
@@ -1353,7 +1382,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (6)
+      value: Simple Door 5
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1366,6 +1395,10 @@ Prefab:
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalScale.z
       value: 1.0000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -1411,11 +1444,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (2)
+      value: Simple Door 3
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -1645,7 +1682,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (3)
+      value: Simple Door 3
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1686,6 +1723,10 @@ Prefab:
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -1731,7 +1772,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (5)
+      value: Simple Door 6
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1759,6 +1800,10 @@ Prefab:
         type: 2}
       propertyPath: m_Center.z
       value: -1.9817733e-16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -1856,7 +1901,7 @@ Transform:
   m_Children:
   - {fileID: 1723493155}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1347337093
 MonoBehaviour:
@@ -1949,11 +1994,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (4)
+      value: Simple Door 5
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
       value: 270
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -1999,7 +2048,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (3)
+      value: Simple Door 1
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2012,6 +2061,10 @@ Prefab:
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -2057,7 +2110,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (1)
+      value: Simple Door 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -2215,7 +2272,8 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 7}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: [{fileID: 1014355549}]
+  m_Children:
+  - {fileID: 1014355549}
   m_Father: {fileID: 5249294}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2326,7 +2384,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (5)
+      value: Simple Door 2
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2368,6 +2426,10 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1.0000005
       objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
   m_IsPrefabAsset: 0
@@ -2395,7 +2457,9 @@ Transform:
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -15, y: 0, z: -8}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: [{fileID: 1783905845}, {fileID: 798295253}]
+  m_Children:
+  - {fileID: 1783905845}
+  - {fileID: 798295253}
   m_Father: {fileID: 5249294}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2440,7 +2504,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (2)
+      value: Simple Door 1
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2473,6 +2537,10 @@ Prefab:
         type: 2}
       propertyPath: m_Size.z
       value: 2.4514172
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -2518,7 +2586,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (2)
+      value: Simple Door 4
       objectReference: {fileID: 0}
     - target: {fileID: 65077068821857024, guid: ba008ae8680dbd042962e6a704ab4343,
         type: 2}
@@ -2539,6 +2607,10 @@ Prefab:
         type: 2}
       propertyPath: m_Center.z
       value: -0.10932064
+      objectReference: {fileID: 0}
+    - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Door Frame
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
