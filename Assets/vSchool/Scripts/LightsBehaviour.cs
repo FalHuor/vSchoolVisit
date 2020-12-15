@@ -63,6 +63,5 @@ public class LightsBehaviour : MonoBehaviour {
 				light.GetComponent<Light>().intensity = 0;
 			}
 		}
-		Debug.Log("State of lights : " + LightsUp);
 	}
 }
