@@ -7,7 +7,6 @@ TagManager:
   - Grabbable
   - Switch
   - VideoScreen
-  - Lights
   layers:
   - Default
   - TransparentFX
