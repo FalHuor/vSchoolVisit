@@ -139,7 +139,7 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1224701893}
+  - {fileID: 1011083459}
   - {fileID: 2147168530}
   m_Father: {fileID: 269373752}
   m_RootOrder: 0
@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   LightsUp: 0
+  text: 
 --- !u!1 &5249293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1203,6 +1204,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7af294b977f3e874ea23438e4d6162e9, type: 2}
   m_IsPrefabAsset: 0
+--- !u!224 &1011083459 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 224156841236730410, guid: 7af294b977f3e874ea23438e4d6162e9,
+    type: 2}
+  m_PrefabInternal: {fileID: 1011083458}
 --- !u!4 &1014355549 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343,
@@ -1622,11 +1628,6 @@ MeshFilter:
 --- !u!1 &1224701892 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1650166349619322, guid: 7af294b977f3e874ea23438e4d6162e9,
-    type: 2}
-  m_PrefabInternal: {fileID: 1011083458}
---- !u!4 &1224701893 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 4957111872597964, guid: 7af294b977f3e874ea23438e4d6162e9,
     type: 2}
   m_PrefabInternal: {fileID: 1011083458}
 --- !u!65 &1224701894
