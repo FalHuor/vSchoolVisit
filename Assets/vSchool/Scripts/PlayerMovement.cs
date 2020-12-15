@@ -13,6 +13,7 @@ public class PlayerMovement : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         characterController = GetComponent<CharacterController>();
+        Cursor.visible = false;
 	}
 	
 	// Update is called once per frame
