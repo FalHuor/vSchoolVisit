@@ -899,7 +899,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (4)
+      value: Simple Door 1
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -1525,7 +1525,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (4)
+      value: Simple Door 2
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -2138,6 +2138,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
+      propertyPath: m_Name
+      value: Simple Door 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
   m_IsPrefabAsset: 0
@@ -2447,7 +2451,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (3)
+      value: Simple Door 4
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -4077,7 +4081,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (7)
+      value: Simple Door 1
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -4135,7 +4139,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (6)
+      value: Simple Door 5
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -4193,7 +4197,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (2)
+      value: Simple Door 3
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -4597,7 +4601,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (3)
+      value: Simple Door 3
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -4762,7 +4766,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (5)
+      value: Simple Door 6
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -5160,7 +5164,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (4)
+      value: Simple Door 5
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -5210,7 +5214,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (3)
+      value: Simple Door 1
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -5344,7 +5348,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (1)
+      value: Simple Door 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
@@ -7268,7 +7272,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (5)
+      value: Simple Door 2
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -7385,7 +7389,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (2)
+      value: Simple Door 1
       objectReference: {fileID: 0}
     - target: {fileID: 4564667357126570, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -7463,7 +7467,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1477058725197054, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
-      value: SimpleDoor (2)
+      value: Simple Door 4
       objectReference: {fileID: 0}
     - target: {fileID: 65077068821857024, guid: ba008ae8680dbd042962e6a704ab4343,
         type: 2}
