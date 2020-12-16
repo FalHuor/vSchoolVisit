@@ -3938,7 +3938,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1310472444022312, guid: b6a6d5fa720e1c04ca3cde714dc4b7f9, type: 2}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 23477912970245350, guid: b6a6d5fa720e1c04ca3cde714dc4b7f9,
         type: 2}
@@ -7993,12 +7993,12 @@ Prefab:
     - target: {fileID: 65077068821857024, guid: ba008ae8680dbd042962e6a704ab4343,
         type: 2}
       propertyPath: m_Center.x
-      value: -0.07644541
+      value: -0.07644542
       objectReference: {fileID: 0}
     - target: {fileID: 65077068821857024, guid: ba008ae8680dbd042962e6a704ab4343,
         type: 2}
       propertyPath: m_Center.z
-      value: -1.9817733e-16
+      value: -0.17180653
       objectReference: {fileID: 0}
     - target: {fileID: 1176701845587084, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
@@ -8007,6 +8007,11 @@ Prefab:
     - target: {fileID: 1448083635133268, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
       propertyPath: m_Name
       value: Door Hinge
+      objectReference: {fileID: 0}
+    - target: {fileID: 65077068821857024, guid: ba008ae8680dbd042962e6a704ab4343,
+        type: 2}
+      propertyPath: m_Size.z
+      value: 1.6563871
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ba008ae8680dbd042962e6a704ab4343, type: 2}
